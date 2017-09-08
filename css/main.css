@@ -1,7 +1,4 @@
 
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +34,6 @@
 }
 
 .photo video {
-
   position: absolute;
   z-index: 1;
   top: 51px;
@@ -48,6 +44,7 @@
   background-color: #4785FF;
   text-align: center;
   font-family: avenir;
+  color: white;
 }
 
 .our-story h1 {
@@ -80,6 +77,8 @@
 
 .hi {
   text-align: center;
+  margin: 10px 0;
+  font-family: avenir;
 }
 
 
@@ -99,16 +98,41 @@
   width: 415px;
   /*border: 1px solid red;*/
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 10px;
+  position: relative;
 }
 
+.sayhi-words span {
+  position: absolute;
+  font-family: avenir;
+}
+
+.insta {
+  left: 78px;
+}
+
+.fb {
+  left: 175px;
+}
+
+.twitter{
+  left: 277px;
+}
+
+.gear {
+  left: 377px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .footer-container{
   padding: 20px 0 0;
   display: flex;
   justify-content: flex-end;
-
 }
 
 .footer {
@@ -119,9 +143,12 @@
 }
 
 .pp {
-  margin-left: 15px;
+  margin: 0 15px 10px;
 }
 
+.tos a, .pp a {
+  text-decoration: underline;
+}
 
 
 
