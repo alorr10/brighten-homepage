@@ -1,0 +1,203 @@
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;    /* Add this */
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.appstore {
+  display: flex;
+  align-items: center;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.photo {
+  position: relative;
+}
+
+.photo video {
+
+  position: absolute;
+  z-index: 1;
+  top: 51px;
+  left: 10px;
+}
+
+.our-story{
+  background-color: #4785FF;
+  text-align: center;
+  font-family: avenir;
+}
+
+.our-story h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 27px;
+  padding-top: 23px;
+}
+
+.our-story p {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 344px 20px;
+  line-height: 1.5;
+}
+
+.our-story p:before {
+  content: "";
+  width: 10em;
+  display: block;
+  overflow: hidden;
+  /* For Demonstration */
+}
+
+
+#final-paragraph {
+  padding-bottom: 77px;
+}
+
+
+.hi {
+  text-align: center;
+}
+
+
+.sayhi-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.sayhi-words-wrapper{
+  /*border: 1px solid black;*/
+  display: flex;
+  justify-content: center;
+}
+
+.sayhi-words {
+  width: 415px;
+  /*border: 1px solid red;*/
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+
+.footer-container{
+  padding: 20px 0 0;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.footer {
+  width: 900px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 10px;
+}
+
+.pp {
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
