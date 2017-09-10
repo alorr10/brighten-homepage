@@ -1,9 +1,12 @@
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+@media screen and (min-width: 980px) /* Desktop */ {
 
 .menu-container {
     color: #fff;
@@ -23,22 +26,6 @@
   align-items: center;
 }
 
-.photo-grid-container {
-  display: flex;
-  justify-content: center;
-  padding: 40px 0;
-}
-
-.photo {
-  position: relative;
-}
-
-.photo video {
-  position: absolute;
-  z-index: 1;
-  top: 51px;
-  left: 10px;
-}
 
 .our-story{
   background-color: #4785FF;
@@ -150,9 +137,76 @@ a {
   text-decoration: underline;
 }
 
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .appstore {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .our-story{
+    background-color: #4785FF;
+    text-align: center;
+    font-family: avenir;
+    color: white;
+  }
+
+  .our-story h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    }
+
+  .our-story p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 20px 5px;
+  }
+
+
+  #final-paragraph {
+    padding-bottom: 77px;
+  }
+
+  .hi {
+  text-align: center;
+  margin: 10px 0;
+  font-family: avenir;
+}
+
+
+}
 
 
 
+
+
+/* Applies to all */
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+  }
+
+  .photo {
+    position: relative;
+  }
+
+  .photo video {
+    position: absolute;
+    z-index: 1;
+    top: 51px;
+    left: 10px;
 
 
 
